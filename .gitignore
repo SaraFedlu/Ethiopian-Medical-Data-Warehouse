@@ -1,0 +1,31 @@
+# Ignore virtual environment
+venv/
+__pycache__/
+
+# Ignore sensitive config files
+config.py
+
+# Ignore log files
+logs/
+*.log
+
+# Ignore database files
+*.db
+*.sqlite3
+
+# Ignore raw data files
+data/raw/
+data/*.csv
+data/*.json
+
+# Ignore images
+data/raw/images/
+*.jpg
+*.png
+
+# Ignore unnecessary system files
+.DS_Store
+Thumbs.db
+
+# Ignore model weights
+object_detection/*.pt
